@@ -1,0 +1,242 @@
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+body{
+  margin: 0;
+  background: linear-gradient(to bottom, #eee, rgba(222,112,6,0.2), #de7006);
+  background-image: linear-gradient(rgb(238, 238, 238), rgba(222, 112, 6, 0.2), rgb(222, 112, 6));
+  overflow-x: hidden;
+  box-sizing: border-box;
+  height: 1500px;
+}
+
+.navbar{
+  position: fixed;
+  width:100%;
+  height: 85px;
+  display: flex;
+  -webkkit-box-align: center;
+  align-items: center;
+  background-color: #212121;
+  padding: 0 20px 0 0;
+}
+
+.main-nav{
+  -webkit-box-flex: 2;
+  flex: 2;
+  text-align: center;
+  height: 85px;
+}
+
+.main-nav>ul{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  list-style-image: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+.logo img{
+  -webkit-box-flex: 1;
+  flex: 1;
+  height: 100%;
+  max-width: 300px;
+  position: relative;
+  display: block;
+}
+
+.blog{
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ee8c25 linear-gradient(140deg, #ee8c25 0%, #ee8c25 10%, #e28523 10%, #e28523 20%, #d17b21 19%, #d67e21 21%, #d67e21 20%, #d67e21 30%, #c6741f 29%, #ca7720 31%, #ca7720 30%, #ca7720 40%, #ba6d1d 39%, #be701e 41%, #be701e 40%, #be701e 50%, #ae661b 49%, #b2691c 51%, #b2691c 50%, #b2691c 60%, #a25f19 59%, #a7621a 61%, #a7621a 60%, #a7621a 70%, #965817 69%, #9b5b18 71%, #9b5b18 70%, #9b5b18 80%, #8a5116 79%, #8f5416 81%, #8f5416 80%, #8f5416 90%, #7e4a14 89%, #834d14 91%, #834d14 90%, #834d14 100%)
+}
+
+.main-nav>ul>li{
+  height: 85px;
+  position: relative;
+  display: list-item;
+}
+
+.main-nav>ul>li a{
+  font-size: 18px;
+  color: white;
+  padding: 4px 8px;
+  position: relative;
+  display: inline-block;
+  line-height: 77px;
+  height: 85px;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.search{
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 225px;
+  max-width: 450px;
+  display: block;
+  margin-bottom: -1px;
+}
+
+.searchbar{
+  position: relative;
+  margin: 0;
+  display: block;
+}
+
+.flexy-search{
+  display: flex;
+  align-items: center;
+}
+
+.search .search-field{
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 100%;
+  padding: 6px 37px 5px 12px;
+  color: black;
+}
+
+input[type='search']{
+  font-family: inherit;
+  outline: 0;
+}
+
+input{
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  line-height: normal;
+}
+
+.user{
+  position: relative;
+  width: 36px;
+  display: block;
+  padding-top: 1%;
+  padding-right: 3%;
+}
+
+.rightbar{
+  float: right;
+  margin: 200px 60px 0 0;
+  width: 28%;
+}
+
+.jobboard{
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 15px 20px 30px 40px;
+}
+
+.cp{
+  font-family: monospace;
+  font-weight: 200;
+}
+
+.jbbold{
+  font-family: 'Arial', sans-serif;
+  font-weight: bolder;
+}
+
+.rbutton{
+  padding: 6px 8px;
+  font-weight: bolder;
+  color: #5a5a5a;
+  background-color: #f4f4f2;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.mt{
+  margin-top: 30px;
+  background-color: #faf6f3;
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+}
+
+.mt img{
+  margin: auto;
+  width: 100%;
+}
+
+
+.mt a{
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+}
+
+.orangebold{
+  font-family: 'Arial', sans-serif;
+  font-weight: bolder;
+  color: #ee8c25;
+}
+
+.webhosting{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.wut{
+  background-color: #fbf4ee;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px 30px 50px 30px;
+  margin-bottom: 50px;
+}
+
+.signup{
+  background-color: #7ec4e1;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+  margin: auto;
+  padding: 15px 50px;
+}
+
+.content{
+  float: left;
+  margin-top: 200px;
+  margin-left: 60px;
+  width: 58%;
+}
+
+.sponsor{
+  border-radius: 10px;
+  padding: 60px;
+  background-color: white;
+}
